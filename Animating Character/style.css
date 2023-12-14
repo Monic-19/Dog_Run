@@ -1,0 +1,24 @@
+*{
+    background-color: rgb(110, 226, 120)
+}
+.controls{
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.controls, select , option{
+    font-size: 20px;
+    margin: 10px;
+} 
+
+#canvas1{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
