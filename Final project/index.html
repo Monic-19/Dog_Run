@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOG Run</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Scribble&family=Whisper&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/lives.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="left">
+            <h1>DOG RUN</h1>
+        </div>
+        <div class="right">
+            <h3>Objective : Score 25 points in 30 seconds.</h3>
+            <h3>You have 3 lives.</h3>
+            <h3>Press 'Enter' for boost.</h3>
+            <h3>In Mid Air Press Down / &darr; For Blast.</h3>
+            <!-- <h3>Hit Enemies During Boost Only.</h3> -->
+        </div>
+    </div>
+    <canvas id="canvas1"></canvas>
+    <img src="./assets/player.png" id="player" alt="player_image">
+    <img src="./assets/backgrounds/layer-5.png" id="bl5" alt="">
+    <img src="./assets/backgrounds/layer-4.png" id="bl4" alt="">
+    <img src="./assets/backgrounds/layer-3.png" id="bl3" alt="">
+    <img src="./assets/backgrounds/layer-2.png" id="bl2" alt="">
+    <img src="./assets/backgrounds/layer-1.png" id="bl1" alt="">
+    <img src="./assets/enemy/enemy_fly.png" id="enemy_fly" alt="">
+    <img src="./assets/enemy/enemy_plant.png" id="enemy_plant" alt="">
+    <img src="./assets/enemy/enemy_spider_big.png" id="enemy_spider" alt="">
+    <img src="./assets/fire.png" id="fire" alt="">
+    <img src="./assets/boom.png" id="collision" alt="">
+    <img src="./assets/lives.png" id="lives" alt="">
+
+    <div class="bottom">
+        <h3>By - Monic Vyas</h3>
+        <h3>Github <a href="https://github.com/Monic-19">-  Click here</a></h3>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
